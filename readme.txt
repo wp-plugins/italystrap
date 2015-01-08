@@ -4,7 +4,7 @@ Donate link: http://www.italystrap.it/
 Tags: breadcrumbs, breadcrumb, seo, performance, schema.org, rich snippet, bootstrap, twitter bootstrap, css
 Requires at least: 4.0
 Tested up to: 4.1
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,12 +52,24 @@ For more informations read the documentation
 
 == Changelog ==
 
+= 1.0.1 =
+Release Date: January 8th, 2015
+
+Dev time: 1h
+
+* Update Breadcrumbs documentation
+
 = 1.0.0 =
-Release Date: December 30th, 2014
+Release Date: January 7th, 2015
+
 Dev time: 100h
+
 * First release
 
 == Upgrade Notice ==
+
+= 1.0.1 =
+
 
 = 1.0.0 =
 First release.

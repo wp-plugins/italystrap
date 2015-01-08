@@ -2,8 +2,8 @@
 /**
  *	Plugin Name:	ItalyStrap
  *	Plugin URI:		http://www.italystrap.it
- *	Description:	Make your website faster. | <a href="admin.php?page=italystrap-documentation">Documentation</a> 
- *	Version:		1.0.0
+ *	Description:	Make your website more powerfull. | <a href="admin.php?page=italystrap-documentation">Documentation</a> 
+ *	Version:		1.0.1
  *	Author:			Enea Overclokk
  *	Author URI:		http://www.overclokk.net
  *	Text Domain:	italystrap-extended

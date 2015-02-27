@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Italystrap-ext\n"
+"POT-Creation-Date: 2015-02-27 19:09+0100\n"
+"PO-Revision-Date: 2015-02-27 19:09+0100\n"
+"Last-Translator: Enea Overclokk <info@overclokk.net>\n"
+"Language-Team: Overclokk <info@overclokk.net>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: .sass-cache\n"
+"X-Poedit-SearchPathExcluded-3: bower_components\n"
+
+#: admin/ItalyStrapAdminGallerySettings.php:26
+msgid "Standard gallery"
+msgstr ""
+
+#: admin/ItalyStrapAdminGallerySettings.php:27
+msgid "Bootstrap Carousel"
+msgstr ""
+
+#: admin/ItalyStrapAdminGallerySettings.php:64
+msgid "Type"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:70
+msgid "ItalyStrap Dashboard"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:87 admin/ItalystrapAdmin.php:129
+#: admin/ItalystrapAdmin.php:144
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:104 admin/ItalystrapAdmin.php:105
+#: admin/ItalystrapAdmin.php:160 admin/admin-template/dashboard-page.php:6
+#: admin/admin-template/documentation-page.php:6
+msgid "Documentation"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:113 admin/ItalystrapAdmin.php:114
+msgid "Options"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:178
+msgid "ItalyStrap options page"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:185
+msgid "LazyLoad"
+msgstr ""
+
+#: admin/ItalystrapAdmin.php:213
+msgid "(Activate LazyLoad for images)"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:9
+msgid "Make your website more powerful"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:12
+msgid "New Entry"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:21
+#: admin/admin-template/dashboard-page.php:74
+msgid "Activate Lazy Load from Option Page and let the magic begin :-)"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:22
+#: admin/admin-template/dashboard-page.php:75
+#: admin/admin-template/dashboard-page.php:87
+#: admin/admin-template/dashboard-page.php:98
+msgid "Read the documentation"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:32
+msgid "Coming soon"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:39
+msgid "Add shortcode in admin panel, only for Bootstrap Style"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:47
+msgid "Social Button and Markup"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:55
+msgid "OpenGraph and Twitter Cards for your social share"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:65
+msgid "Currently present"
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:86
+msgid ""
+"Add attribute <code>type=\"carousel\"</code> at gallery shortcode, this will "
+"show Bootstrap Carousel based on the selected images and their titles and "
+"descriptions, otherwise It will show standard WordPress Gallery."
+msgstr ""
+
+#: admin/admin-template/dashboard-page.php:97
+msgid ""
+"Add breadcrumbs to your site in a simple and fast way and get Google rich "
+"snippet with Schema.org markup"
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:303
+msgid "Tag: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:310
+msgid "Yearly archive: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:324
+msgid "Monthly archive: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:346
+msgid "Daily archive: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:353
+msgid "Author Archives: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:360
+msgid "Search Results: "
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:366
+msgid "Not Found"
+msgstr ""
+
+#: classes/ItalyStrapBreadcrumbs.php:375
+msgid "Page"
+msgstr ""

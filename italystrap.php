@@ -3,7 +3,7 @@
  *	Plugin Name:	ItalyStrap
  *	Plugin URI:		http://www.italystrap.it
  *	Description:	Make your website more powerfull. | <a href="admin.php?page=italystrap-documentation">Documentation</a> 
- *	Version:		1.2.1
+ *	Version:		1.3.0
  *	Author:			Enea Overclokk
  *	Author URI:		http://www.overclokk.net
  *	Text Domain:	ItalyStrap
@@ -96,6 +96,9 @@ if ( ! class_exists( 'ItalyStrapInit' ) ) {
 
 			if ( isset( $this->options['lazyload'] ) && !is_admin() )
 				ItalyStrapLazyload::init();
+
+			if ( isset( $this->options['vcardwidget'] ) )
+			add_action('widgets_init', function(){ register_widget('ItalyStrapVcardWidget' ); } );
 			
 		}
 
@@ -124,6 +127,12 @@ if ( ! class_exists( 'ItalyStrapInit' ) ) {
 
 		}
 
+		/**
+		 * Print inline script in footer after all and before shotdown hook
+		 * @return string Internal script
+		 * @todo Creare un sistema che appenda regolarmente dopo gli script
+		 *       e tenga presente delle dipendenze da jquery
+		 */
 		public function italystrap_print_inline_script_in_footer(){
 
 			$scipt = ItalyStrapGlobals::get();

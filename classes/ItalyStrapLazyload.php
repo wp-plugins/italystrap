@@ -4,6 +4,9 @@
  * This function is used for lazy loading every image
  * It works with unveil.js (Not jquery.sonar)
  * @link http://luis-almeida.github.io/unveil/
+ *
+ * @todo Verificare perché stampa gli script anche se
+ *       non ci sono immagini da mettere in lazyload
  */
 if ( ! class_exists( 'ItalyStrapLazyload' ) ){
 
@@ -109,9 +112,9 @@ if ( ! class_exists( 'ItalyStrapLazyload' ) ){
 		static function italystrap_read_file( $filename ) {
 
 			// Check to see if the file exists at the specified path
-			if ( ! file_exists( $filename ) ) {
-			throw new Exception( "The file doesn't exist." );
-			}
+			if ( ! file_exists( $filename ) )
+				throw new Exception( "The file doesn't exist." );
+			
 			// Open the file for reading
 			$file_resource = fopen( $filename, 'r' );
 			/* Read the entire contents of the file which is indicated by
